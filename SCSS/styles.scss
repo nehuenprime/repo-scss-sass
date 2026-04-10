@@ -31,3 +31,18 @@ nav{
     @include v.tarjeta-simple(black, green, 20px)
 }
 
+.btn-index{
+    @extend %boton-color;
+    background-color: red;
+}
+
+.btn-impresion{
+    @extend %boton-color;
+    background-color: bisque
+}
+
+.btn-robotica{
+    @extend %boton-color;
+    background-color: chocolate;
+    color: #000;
+}
